@@ -243,19 +243,20 @@ function UILibrary.Load(GUITitle)
 	
 	local TitleButtonalpa = Instance.new("TextButton")
 	
-	
-TitleButtonalpa.Name = "TitleButtonalpa"
-TitleButtonalpa.Parent = TitleBar
-TitleButtonalpa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TitleButtonalpa.BackgroundTransparency = 1.000
-TitleButtonalpa.Position = UDim2.new(0.729545414, 0, 0, 0)
-TitleButtonalpa.Size = UDim2.new(0.221999988, -20, 1, 0)
-TitleButtonalpa.AutoButtonColor = false
-TitleButtonalpa.Font = Enum.Font.Gotham
-TitleButtonalpa.Text = "Made By ALPA"
-TitleButtonalpa.TextColor3 = Color3.fromRGB(255, 255, 255)
-TitleButtonalpa.TextSize = 14.000
-TitleButtonalpa.TextXAlignment = Enum.TextXAlignment.Left
+
+	TitleButtonalpa.Name = "TitleButtonalpa"
+	TitleButtonalpa.Parent = TitleBar
+	TitleButtonalpa.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TitleButtonalpa.BackgroundTransparency = 1.000
+	TitleButtonalpa.Position = UDim2.new(0.729545414, 0, 0, 0)
+	TitleButtonalpa.Size = UDim2.new(0.221999988, -20, 1, 0)
+	TitleButtonalpa.AutoButtonColor = false
+	TitleButtonalpa.Font = Enum.Font.Gotham
+	TitleButtonalpa.Text = "Made By ALPA"
+	TitleButtonalpa.TextColor3 = Color3.fromRGB(255, 255, 255)
+	TitleButtonalpa.TextSize = 14.000
+	TitleButtonalpa.TextXAlignment = Enum.TextXAlignment.Left
+	TitleButtonalpa.ZIndex = 2
 	
 	MinimiseButton.MouseButton1Down:Connect(function()
 		MinimiseToggle = not MinimiseToggle
