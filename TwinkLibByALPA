@@ -236,8 +236,10 @@ function UILibrary.Load(GUITitle)
 	
 	TitleButton = TextButton(GUITitle, 14)
 	TitleButton.Name = "TitleButton"
-	TitleButton.Size = UDim2.new(1,-20,1,0)
+	TitleButton.Size = UDim2.new(0.986363649, -20, 1, 0)
 	TitleButton.Parent = TitleBar
+	TitleButton.TextXAlignment = Enum.TextXAlignment.Left
+	TitleButton.Position = UDim2.new(0.0136363637, 0, 0, 0)
 	
 	MinimiseButton.MouseButton1Down:Connect(function()
 		MinimiseToggle = not MinimiseToggle
