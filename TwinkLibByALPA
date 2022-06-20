@@ -477,16 +477,16 @@ function PageLibrary.AddTextBox(Text, Callback, Parent, Underline)
 				BottomEffect.Parent = ButtonForeground1
 			end
 			
-			local HiddenButton = TextButton12(Text, 12)
-			HiddenButton.Parent = ButtonForeground1
+			local HiddenButton1 = TextButton12(Text, 12)
+			HiddenButton1.Parent = ButtonForeground1
 			
-			HiddenButton.MouseButton1Down:Connect(function()
+			HiddenButton1.MouseButton1Down:Connect(function()
 				Callback()
 				Tween(ButtonForeground1, {ImageColor3 = Color3.fromRGB(45,45,45)})
-				Tween(HiddenButton, {TextTransparency = 0.5})
+				Tween(HiddenButton1, {TextTransparency = 0.5})
 				wait(TweenTime)
 				Tween(ButtonForeground1, {ImageColor3 = Color3.fromRGB(35,35,35)})
-				Tween(HiddenButton, {TextTransparency = 0})
+				Tween(HiddenButton1, {TextTransparency = 0})
 			end)
 		end
 		
