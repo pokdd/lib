@@ -241,6 +241,22 @@ function UILibrary.Load(GUITitle)
 	TitleButton.TextXAlignment = Enum.TextXAlignment.Left
 	TitleButton.Position = UDim2.new(0.0136363637, 0, 0, 0)
 	
+	local TitleButton2 = Instance.new("TextButton")
+	
+	
+TitleButton2.Name = "TitleButton2"
+TitleButton2.Parent = TitleBar
+TitleButton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TitleButton2.BackgroundTransparency = 1.000
+TitleButton2.Position = UDim2.new(0.729545414, 0, 0, 0)
+TitleButton2.Size = UDim2.new(0.221999988, -20, 1, 0)
+TitleButton2.AutoButtonColor = false
+TitleButton2.Font = Enum.Font.Gotham
+TitleButton2.Text = "Made By ALPA"
+TitleButton2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TitleButton2.TextSize = 14.000
+TitleButton2.TextXAlignment = Enum.TextXAlignment.Left
+	
 	MinimiseButton.MouseButton1Down:Connect(function()
 		MinimiseToggle = not MinimiseToggle
 		if not MinimiseToggle then
