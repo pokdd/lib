@@ -1,0 +1,3 @@
+local ALPA21 = {
+   script.Parent.Text = "Key = ALPA"
+}
