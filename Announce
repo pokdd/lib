@@ -1,4 +1,4 @@
-local ALPA = {
- er = "Key = ALPA"
 
-}
+script.Parent.Text = "Key = ALPA"
+
+
