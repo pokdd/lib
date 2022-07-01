@@ -1,4 +1,4 @@
 
-script.Parent.Text = "Key = ALPA"
+ANNOUNCEText.Text = "Key = ALPA"
 
 
