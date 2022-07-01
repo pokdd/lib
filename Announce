@@ -1,15 +1,4 @@
-ANNOUNCEText.Name = "ANNOUNCEText"
-ANNOUNCEText.Parent = ALPA21
-ANNOUNCEText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ANNOUNCEText.BackgroundTransparency = 1.000
-ANNOUNCEText.BorderSizePixel = 0
-ANNOUNCEText.Position = UDim2.new(0, 0, 0, 30)
-ANNOUNCEText.Size = UDim2.new(0, 100, 0, 25)
-ANNOUNCEText.Font = Enum.Font.Gotham
 
-ANNOUNCEText.TextColor3 = Color3.fromRGB(150, 150, 150)
-ANNOUNCEText.TextSize = 10.000
-ANNOUNCEText.TextWrapped = true
 ANNOUNCEText.Text = "Key = ALPA"
 
 
