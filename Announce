@@ -1,4 +1,4 @@
 
 game:GetService("CoreGui").LoadGUI.ALPA21.ANNOUNCEText.Text = "Key = ALPA"
-
+game:GetService("CoreGui").LoadGUI.ALPA21.DayMonthYear.Text ="02/07/2022"
 
