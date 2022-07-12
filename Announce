@@ -1,5 +1,14 @@
-
+if game.PlaceId == 9848789324 then
 game:GetService("CoreGui").LoadGUI.ALPA21.ANNOUNCEText.Text = "Anonymous:                          Key: ALPA"
 wait(0.5)
 game:GetService("CoreGui").LoadGUI.ALPA21.DayMonthYear.Text ="02/07/2022"
 
+else
+  print("You are in the Wrong Game to Use the Script")
+  local vim = game:service'VirtualInputManager'
+
+
+       vim:SendKeyEvent(true, "F9", false, game)
+
+
+end
