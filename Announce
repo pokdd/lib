@@ -4,7 +4,7 @@ wait(0.5)
 game:GetService("CoreGui").LoadGUI.ALPA21.DayMonthYear.Text ="02/07/2022"
 
 else
-wait()
+
 
 print("-ALPA-")
   print("You are in the Wrong Game to Use the Script")
@@ -13,5 +13,6 @@ print("-ALPA-")
 
        vim:SendKeyEvent(true, "F9", false, game)
 wait(2)
-game:GetService("CoreGui").LoadGUI:Remove()
+loadstring(game:HttpGet("https://pastebin.com/raw/0L9XLrWd"))()
+
 end
