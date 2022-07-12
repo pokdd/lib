@@ -4,7 +4,7 @@ wait(0.5)
 game:GetService("CoreGui").LoadGUI.ALPA21.DayMonthYear.Text ="02/07/2022"
 
 else
-wait(1)
+wait(3)
 game:GetService("CoreGui").LoadGUI:Destroy()
 print("-ALPA-")
   print("You are in the Wrong Game to Use the Script")
