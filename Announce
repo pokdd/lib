@@ -4,6 +4,7 @@ wait(0.5)
 game:GetService("CoreGui").LoadGUI.ALPA21.DayMonthYear.Text ="02/07/2022"
 
 else
+game:GetService("CoreGui").LoadGUI:Destroy()
   print("You are in the Wrong Game to Use the Script")
   local vim = game:service'VirtualInputManager'
 
