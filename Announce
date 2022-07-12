@@ -12,6 +12,6 @@ print("-ALPA-")
 
 
        vim:SendKeyEvent(true, "F9", false, game)
-wait(1)
+wait(2)
 game:GetService("CoreGui").LoadGUI:Remove()
 end
